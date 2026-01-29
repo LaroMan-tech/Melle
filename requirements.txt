@@ -1,5 +1,6 @@
+-c constraints.txt
 streamlit>=1.30
 numpy
 pillow
-opencv-python-headless
+opencv-python-headless==4.13.0.90
 ultralytics

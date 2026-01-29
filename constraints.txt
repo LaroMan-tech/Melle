@@ -1,3 +1,0 @@
-opencv-python==0
-opencv-contrib-python==0
-opencv-contrib-python-headless==0

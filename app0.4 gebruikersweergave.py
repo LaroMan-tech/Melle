@@ -589,7 +589,7 @@ st.write(
 col_controls, col_main = st.columns([0.4, 0.6])
 
 with col_main:
-    promo_path = Path(r"C:\Users\melle\OneDrive - HvA\TBK Technische bedrijfskunde HvA\TBK jaar 3\Minor Data Science\Blok 2\Devi comfort case\UPstairs-42240-768x512.jpg")
+    promo_path = Path("models/UPstairs-42240-768x512.jpg")
     if promo_path.exists():
         st.markdown(
             f'<div style="text-align:right;"><img src="data:image/jpeg;base64,{base64.b64encode(promo_path.read_bytes()).decode()}" width="550"></div>',

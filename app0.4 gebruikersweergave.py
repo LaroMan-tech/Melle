@@ -14,9 +14,7 @@ import base64
 from ultralytics import YOLO
 
 # Standaard modelpad (gebruik deze automatisch als aanwezig)
-DEFAULT_WEIGHTS_PATH = Path(
-    r"C:\Users\melle\OneDrive - HvA\TBK Technische bedrijfskunde HvA\TBK jaar 3\Minor Data Science\Blok 2\Devi comfort case\Run 26-01 YOLO\best.pt"
-)
+DEFAULT_WEIGHTS_PATH = Path("models/best.pt")
 
 # ----------------------------
 # Helpers
